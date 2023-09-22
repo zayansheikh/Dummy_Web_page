@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+.display-flex{
+  display: flex;
+}
+.navbar{
+    background-color: #2b2c2c;
+    height: 80px;
+    padding: 8px 70px;
+}
+.footernav{
+  padding: 15px 15px;
+}
+.logo{
+    color: white;
+    font-size: 1.9rem;
+}
+.btns{
+    border: none;
+    background: none;
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.btns:hover{
+    color: #539165;
+}
+
+.top-row{
+    background-image: url(/images/mainimg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-header{
+    padding: 190px 45px;
+}
+.main-heading{
+    color: white;
+    font-weight: 700;
+    font-size: 3.3rem;
+    line-height: 50px;
+}
+.top-row p{
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.portion{
+    height: 100vh;
+    width: 50%;
+}
+.inner-portion{
+  padding: 12%  1.6%;
+}
+.portion img{
+    height: inherit;
+    width: -webkit-fill-available;
+}
+.heading{
+    font-size:4rem;
+    font-weight: 700;
+    line-height: 50px;
+}
+#first-section{
+    background-color: #f3f5f5;
+    height: 75vh;    
+}
+#second-section{
+    background-color: #e6e6e6;
+    height: 75vh;
+}
+.cards{
+    width: 50vw;
+    padding: 130px 20px;
+}
+.customer-name{
+    color: #337CCF;
+    font-weight: 700;
+}
+.name{
+    font-size: 60px;
+    font-weight: 900;
+}
+.pera{
+
+  font-size: 21px;
+}
+#third-section{
+
+  background-color: #e6724a;
+  height: 45vh;
+  padding: 5%  1.6%;
+}
+.about{
+  width: 50%;
+}
+.about button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+}
+.about button:hover{
+  color: black;
+  background-color: white;
+}
+.contact-heading{
+  font-weight: bold;
+  font-size: 12px;
+  color: #fefefe;
+}
+.contact-links{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 5%;
+  color: #232323;
+}
+#fourth-section{
+  height: 45vh;
+  background-image: url(https://usercontent.one/wp/diyainteractive.com/wp-content/uploads/2020/10/footer-bg.png);
+  color: rgb(235, 234, 234);
+  padding: 5%  1.6%;
+}
+#fourth-section .about h1{
+  font-weight: 700;
+  margin: 0;
+  font-size: 2em;
+}
+#fourth-section .about p{
+  font-size: 1.2rem;
+  color: #bdbcbc;
+  font-weight: 600;
+
+  
+}
+.copyright{
+  background-color:#2b2c2c ;
+}
+@media screen and (max-width: 768px) {
+  /* .box{
+    height: 95vh;
+    padding: 65px 30px;
+  } */
+  .heading{
+    font-size: 2.6rem;
+  }
+  .name{
+    font-size: 45px;
+  }
+  .pera{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  
+}
+@media screen and (max-width: 1024px) {
+    /* .box{
+      height: 95vh;
+      padding: 130px 30px;
+    } */
+    .heading{
+      font-size: 2.6rem;
+    }
+    .name{
+        font-size: 45px;
+      }
+      .pera{
+        font-size: 16px;
+      }
+    }
+  @media screen and (max-width: 767px) {
+    section{
+        flex-direction: column;
+    }
+    .cards{
+        width: 100%;
+    }
+    section{
+      flex-direction: column;
+    }
+    .about{
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 2560px) {
+    .box{
+        padding: 240px 30px;
+    }
+    .box p{
+        font-size: 2.3rem;
+    }
+    .box h6{
+        font-size: 2.3rem;
+    }
+    .heading{
+        font-size: 9rem;
+        line-height: 110px;
+      }
+      .main-heading{
+        font-size: 7.4rem;
+        line-height: 110px;
+      }
+      .top-row p{
+        font-size: 2.4rem;
+      }
+  }
+  @media screen and (max-width: 768px) {
+    .vertical-row{
+        flex-direction: column;
+    }
+    .portion{
+        width: 100%;
+    }
+  }
