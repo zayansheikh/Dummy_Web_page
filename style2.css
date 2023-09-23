@@ -1,226 +1,225 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-main{
-    overflow-x: hidden;
-    max-width: 100%;
+main {
+  overflow-x: hidden;
+  max-width: 100%;
 }
-:root{
-  --light:#fefefe;
-  --gray:rgb(127, 127, 127);
-  --dark:#232323;
-  --success:#539165;
-  --primary:#337CCF;
-  --bg-dark:#2b2c2c;
-  --bg-smoke:#f3f5f5;
+:root {
+  --light: #f2f0f0;
+  --gray: rgb(127, 127, 127);
+  --dark: #232323;
+  --light-gray: #d2d2d2;
+  --success: #539165;
+  --primary: #337ccf;
+  --bg-dark: #2b2c2c;
+  --bg-smoke: #f3f5f5;
   --bg-light: #e6e6e6;
-  --light-orange:#e6724a;
+  --light-orange: #e6724a;
 }
-.flex{
+.flex {
   display: flex;
 }
-.text-gray{
+.text-gray {
   color: var(--gray);
 }
-.font-bold{
+.font-bold {
   font-weight: 700;
 }
-.color-light{
-  color: var(--light);
-}
-.text-type{
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: var(--light);
-  margin: 0
-}
-.navbar{
-    background-color: var(--bg-dark);
-    height: 80px;
-    padding: 8px 70px;
-}
-.logo{
-  color: white;
-  font-size: 1.9rem;
-}
-.btns{
-  border: none;
-  background: none;
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-.btns:hover{
-  color: var(--success);
-}
-
-.top-row{
-  background-image: url(/images/mainimg.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .main-header{
-    padding: 190px 45px;
-  }
-  .main-heading{
-    color: white;
-    font-weight: 700;
-    font-size: 3.3rem;
-    line-height: 50px;
-  }
-  .top-row p{
-    color: var(--gray);
-    font-size: 1.2rem;
-    font-weight: 400;
-  }
-  .portion{
-    background-color: var(--bg-smoke);
-    height: 100vh;
-    width: 50%;
-  }
-  .inner-portion{
-    padding: 12%  1.6%;
-  }
-  .portion img{
-    height: inherit;
-    width: -webkit-fill-available;
-  }
-  .heading{
-    font-size:4rem;
-    font-weight: 700;
-    line-height: 50px;
-  }
-  #third-row1{
-    background-color: var(--bg-light);
-    height: 75vh;    
-  }
-  #third-row2{
-    background-color: var(--bg-smoke);
-    height: 75vh;
-  }
-  .cards{
-    width: 50vw;
-    padding: 130px 20px;
-  }
-  .customer-name{
-    color: var(--primary);
-    font-weight: 700;
-  }
-  .name{
-    font-size: 60px;
-    font-weight: 900;
-}
-.pera{
-  
-  font-size: 21px;
-}
-#fourth-row1{
-  background-color: var(--light-orange);
-  height: 45vh;
-  padding: 5%  1.6%;
-}
-.about{
-  width: 50%;
-}
-.about button{
-  padding: 10px 30px;
-  border: none;
-  border-radius: 3px;
-  margin-top: 20px;
-  font-weight: 700;
-  color: white;
-  background-color: black;
-}
-.about button:hover{
-  color: black;
-  background-color: white;
-}
-.contact-heading{
-  font-size: 12px;
-  color: var(--light);
-}
-.contact-links{
-  font-size: 20px;
-  line-height: 5%;
-  color: var(--dark);
-}
-
-#fourth-row2{
-  height: 45vh;
-  background-image: url(https://usercontent.one/wp/diyainteractive.com/wp-content/uploads/2020/10/footer-bg.png);
-  color: rgb(235, 234, 234);
-  padding: 5%  1.6%;
-}
-#fourth-row2 p{
-  font-size: 20px;
-  line-height: 130%;
-  color: #d2d2d2;
-  font-weight: 500;
-}
-.footer{
+.navbar {
   background-color: var(--bg-dark);
   height: 80px;
   padding: 8px 70px;
 }
-.copyright{
-  background-color:var(--bg-dark);
+.logo {
+  color: white;
+  font-size: 1.9rem;
+}
+.btns {
+  border: none;
+  background: none;
+  font-size: 1.2rem;
+}
+.btns:hover {
+  color: var(--success);
+}
+
+.top-row {
+  background-image: url(/images/mainimg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-header {
+  padding: 190px 45px;
+}
+.main-heading {
+  color: white;
+  font-size: 3.3rem;
+  line-height: 50px;
+}
+.top-row p {
+  color: var(--gray);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+/* SECOND SECTION---- */
+.portion {
+  height: 100vh;
+  width: 50%;
+}
+.inner-portion {
+  background-color: var(--bg-smoke);
+  padding: 12% 1.6%;
+}
+.portion img {
+  height: inherit;
+  width: -webkit-fill-available;
+}
+.heading {
+  font-size: 4rem;
+  line-height: 50px;
+}
+/* THIRD SECTION---- */
+#third-row1 {
+  background-color: var(--bg-light);
+  height: 75vh;
+}
+#third-row2 {
+  background-color: var(--bg-smoke);
+  height: 75vh;
+}
+.cards {
+  width: 50vw;
+  padding: 130px 20px;
+}
+.customer-name {
+  color: var(--primary);
+}
+.name {
+  font-size: 60px;
+  font-weight: 900;
+}
+.pera {
+  font-size: 21px;
+}
+/* FOURTH SECTION---- */
+#fourth-row1 {
+  background-color: var(--light-orange);
+  height: 45vh;
+  padding: 5% 1.6%;
+}
+.about {
+  width: 50%;
+}
+.type-btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 20px;
+  color: white;
+  background-color: black;
+}
+.about button:hover {
+  color: black;
+  background-color: white;
+}
+.contact-heading {
+  font-size: 12px;
+  color: var(--light);
+}
+.contact-links {
+  font-size: 22px;
+  line-height: 5%;
+  font-weight: 500;
+  color: var(--dark);
+}
+#fourth-row2 {
+  height: 45vh;
+  background-image: url(https://usercontent.one/wp/diyainteractive.com/wp-content/uploads/2020/10/footer-bg.png);
+  padding: 5% 1.6%;
+}
+#fourth-row2 p {
+  font-size: 20px;
+  line-height: 130%;
+  color: var(--light-gray);
+  font-weight: 500;
+}
+.text-type {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+/* FOOTER---- */
+.footer {
+  background-color: var(--bg-dark);
+  height: 80px;
+  padding: 8px 70px;
+}
+.copyright {
+  background-color: var(--bg-dark);
 }
 
 @media screen and (max-width: 1024px) {
-    /* .box{
+  /* .box{
       height: 95vh;
       padding: 130px 30px;
     } */
-    .heading{
-      font-size: 2.6rem;
-    }
-    .name{
-        font-size: 45px;
-      }
-      .pera{
-        font-size: 16px;
-      }
-    }
-  @media screen and (max-width: 768px) {
-    .vertical-row ,  #third-row1 , #third-row2 ,#fourth-row2 , #fourth-row2{
-      flex-direction: column;
-    }
-    .portion , .cards , .about{
-        width: 100%;
-    }
-    .heading{
-      font-size: 2.6rem;
-    }
-    .name{
-      font-size: 45px;
-    }
-    .pera{
-      font-size: 16px;
-    }
+  .heading {
+    font-size: 2.6rem;
   }
-  @media screen and (min-width: 2560px) {
-    .box{
-        padding: 240px 30px;
-    }
-    .box p{
-        font-size: 2.3rem;
-    }
-    .box h6{
-
-        font-size: 2.3rem;
-    }
-    .heading{
-        font-size: 9rem;
-        line-height: 110px;
-      }
-      .main-heading{
-        font-size: 7.4rem;
-        line-height: 110px;
-      }
-      .top-row p{
-        font-size: 2.4rem;
-      }
+  .name {
+    font-size: 45px;
   }
-  @media screen and (max-width: 768px) {
-
+  .pera {
+    font-size: 16px;
   }
+}
+@media screen and (max-width: 768px) {
+  .vertical-row,
+  #third-row1,
+  #third-row2,
+  #fourth-row2,
+  #fourth-row2 {
+    flex-direction: column;
+  }
+  .portion,
+  .cards,
+  .about {
+    width: 100%;
+  }
+  .heading {
+    font-size: 2.6rem;
+  }
+  .name {
+    font-size: 45px;
+  }
+  .pera {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .box {
+    padding: 240px 30px;
+  }
+  .box p {
+    font-size: 2.3rem;
+  }
+  .box h6 {
+    font-size: 2.3rem;
+  }
+  .heading {
+    font-size: 9rem;
+    line-height: 110px;
+  }
+  .main-heading {
+    font-size: 7.4rem;
+    line-height: 110px;
+  }
+  .top-row p {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+}
