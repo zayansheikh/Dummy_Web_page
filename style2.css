@@ -143,21 +143,7 @@ main{
 .copyright{
   background-color:#2b2c2c ;
 }
-@media screen and (max-width: 768px) {
-  /* .box{
-    height: 95vh;
-    padding: 65px 30px;
-  } */
-  .heading{
-    font-size: 2.6rem;
-  }
-  .name{
-    font-size: 45px;
-  }
-  .pera{
-    font-size: 16px;
-  }
-}
+
 @media screen and (max-width: 1024px) {
     /* .box{
       height: 95vh;
@@ -173,15 +159,21 @@ main{
         font-size: 16px;
       }
     }
-  @media screen and (max-width: 767px) {
-    .third-row1{
+  @media screen and (max-width: 768px) {
+    .vertical-row ,  #third-row1 , #third-row2 ,#fourth-row2 , #fourth-row2{
       flex-direction: column;
     }
-    .cards{
+    .portion , .cards , .about{
         width: 100%;
     }
-    .about{
-      width: 100%;
+    .heading{
+      font-size: 2.6rem;
+    }
+    .name{
+      font-size: 45px;
+    }
+    .pera{
+      font-size: 16px;
     }
   }
   @media screen and (min-width: 2560px) {
@@ -192,6 +184,7 @@ main{
         font-size: 2.3rem;
     }
     .box h6{
+
         font-size: 2.3rem;
     }
     .heading{
@@ -207,10 +200,5 @@ main{
       }
   }
   @media screen and (max-width: 768px) {
-    .vertical-row{
-        flex-direction: column;
-    }
-    .portion{
-        width: 100%;
-    }
+
   }
