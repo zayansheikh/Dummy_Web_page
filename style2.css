@@ -6,7 +6,7 @@ main{
     overflow-x: hidden;
     max-width: 100%;
 }
-.display-flex{
+.flex{
   display: flex;
 }
 .navbar{
@@ -67,11 +67,11 @@ main{
     font-weight: 700;
     line-height: 50px;
 }
-#first-section{
+#third-row1{
     background-color: #f3f5f5;
     height: 75vh;    
 }
-#second-section{
+#third-row2{
     background-color: #e6e6e6;
     height: 75vh;
 }
@@ -91,7 +91,7 @@ main{
 
   font-size: 21px;
 }
-#third-section{
+#fourth-row1{
 
   background-color: #e6724a;
   height: 45vh;
@@ -124,7 +124,7 @@ main{
   line-height: 5%;
   color: #232323;
 }
-#fourth-section{
+#fourth-row2{
   height: 45vh;
   background-image: url(https://usercontent.one/wp/diyainteractive.com/wp-content/uploads/2020/10/footer-bg.png);
   color: rgb(235, 234, 234);
@@ -135,13 +135,11 @@ main{
   margin: 0;
   font-size: 2em;
 }
-#fourth-section .about p{
+/* #fourth-section .about p{
   font-size: 1.2rem;
   color: #bdbcbc;
   font-weight: 600;
-
-  
-}
+} */
 .copyright{
   background-color:#2b2c2c ;
 }
@@ -160,10 +158,6 @@ main{
     font-size: 16px;
   }
 }
-
-@media screen and (max-width: 300px) {
-  
-}
 @media screen and (max-width: 1024px) {
     /* .box{
       height: 95vh;
@@ -180,14 +174,11 @@ main{
       }
     }
   @media screen and (max-width: 767px) {
-    section{
-        flex-direction: column;
+    .third-row1{
+      flex-direction: column;
     }
     .cards{
         width: 100%;
-    }
-    section{
-      flex-direction: column;
     }
     .about{
       width: 100%;
